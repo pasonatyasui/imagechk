@@ -1,7 +1,7 @@
 {"name"              : "PWA SAMPLE",
   "short_name"        : "PWAS",
   "description"       : "PWAのテスト",
-  "start_url"         : "imagechk/index.html",
+  "start_url"         : "index.html",
   "display"           : "standalone",
   "orientation"       : "portrait",
   "background_color"  : "#000000",
