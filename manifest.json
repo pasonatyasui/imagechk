@@ -1,5 +1,4 @@
-{
-  "name"              : "PWA SAMPLE",
+{"name"              : "PWA SAMPLE",
   "short_name"        : "PWAS",
   "description"       : "PWAのテスト",
   "start_url"         : "/hello.html",
