@@ -7,16 +7,21 @@
   "orientation"       : "portrait",
   "background_color"  : "#000000",
   "theme_color"       : "#ffffff",
-  "icons": [
+ "icons": [
     {
-      "src"           : "/img/test_1.png",
-      "sizes"         : "200x600",
-      "type"          : "/image/png"
+      "src"           : "/img/m192.png",
+      "sizes"         : "192x192",
+      "type"          : "image/png"
     },
     {
-      "src"           : "/img/test_2.png",
-      "sizes"         : "200x600",
-      "type"          : "/image/png"
+      "src"           : "/img/m256.png",
+      "sizes"         : "256x256",
+      "type"          : "image/png"
+    },
+    {
+      "src"           : "/img/m512.png",
+      "sizes"         : "512x512",
+      "type"          : "image/png"
     }
   ]
 }
