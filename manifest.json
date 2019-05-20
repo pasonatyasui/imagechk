@@ -2,21 +2,21 @@
   "name"              : "PWA SAMPLE",
   "short_name"        : "PWAS",
   "description"       : "PWAのテスト",
-  "start_url"         : "hello.html",
+  "start_url"         : "/hello.html",
   "display"           : "standalone",
   "orientation"       : "portrait",
   "background_color"  : "#000000",
   "theme_color"       : "#ffffff",
   "icons": [
     {
-      "src"           : "img/test_1.png",
+      "src"           : "/img/test_1.png",
       "sizes"         : "200x600",
-      "type"          : "image/png"
+      "type"          : "/image/png"
     },
     {
-      "src"           : "img/test_2.png",
+      "src"           : "/img/test_2.png",
       "sizes"         : "200x600",
-      "type"          : "image/png"
+      "type"          : "/image/png"
     }
   ]
 }
