@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+	<head>
+
+		<meta charset="UTF-8">
+
+		<title>hello</title>
+
+		<link rel="manifest" href="manifest.json">
+
+		<script>
+
+			if('serviceWorker' in navigator){
+
+				navigator.serviceWorker.register('serviceworker.js').then(function(){
+
+				console.log("Service Worker Registered");
+
+				});
+
+			}
+
+		</script>
+
+	</head>		
+
+<body>
+
+	Hello, World!
+
+</body>
+
+</html>
