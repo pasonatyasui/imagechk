@@ -9,18 +9,13 @@
   "theme_color"       : "#ffffff",
   "icons": [
     {
-      "src"           : "/img/manifest_icon-192.png",
-      "sizes"         : "192x192",
+      "src"           : "/img/test_1.png",
+      "sizes"         : "200x600",
       "type"          : "image/png"
     },
     {
-      "src"           : "/img/manifest_icon-256.png",
-      "sizes"         : "256x256",
-      "type"          : "image/png"
-    },
-    {
-      "src"           : "/img/manifest_icon-512.png",
-      "sizes"         : "512x512",
+      "src"           : "/img/test_2.png",
+      "sizes"         : "200x600",
       "type"          : "image/png"
     }
   ]
