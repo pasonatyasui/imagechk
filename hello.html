@@ -4,10 +4,6 @@
 		<meta charset="UTF-8">
 		<title>hello</title>
 		<link rel="manifest" href="/manifest.json">
-	</head>
-	<body>
-		Hello, World!
-	</body>
 		<script>
 			if('serviceWorker' in navigator){
 				navigator.serviceWorker.register('/serviceworker.js').then(function(){
@@ -15,4 +11,8 @@
 				});
 			}
 		</script>
+	</head>		
+<body>
+	Hello, World!
+</body>
 </html>
