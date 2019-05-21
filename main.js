@@ -5,8 +5,6 @@ const videoElement = document.querySelector('video');
 const videoSelect = document.querySelector('select#videoSource');
 const selectors = [videoSelect];
 
-audioOutputSelect.disabled = !('sinkId' in HTMLMediaElement.prototype);
-
 function gotDevices(deviceInfos) {
   // Handles being called several times to update labels. Preserve values.
   const values = selectors.map(select => select.value);
