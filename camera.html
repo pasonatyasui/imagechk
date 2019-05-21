@@ -4,6 +4,9 @@
   <meta charset="utf-8">
 </head>
 <body>
+    <div class="select">
+        <label for="videoSource">Video source: </label><select id="videoSource"></select>
+    </div>
     <div class="camera">
         <video id="video">Video stream not available.</video>
     </div><br>
@@ -24,8 +27,8 @@ let startbutton = null
 let constrains = { video: true, audio: false }
 
 /**
- * ƒ†[ƒU[‚ÌƒfƒoƒCƒX‚É‚æ‚éƒJƒƒ‰•\¦‚ğŠJn‚µA
- * Šeƒ{ƒ^ƒ“‚Ì‹““®‚ğİ’è‚·‚é
+ * ãƒ¦ãƒ¼ã‚¶ãƒ¼ã®ãƒ‡ãƒã‚¤ã‚¹ã«ã‚ˆã‚‹ã‚«ãƒ¡ãƒ©è¡¨ç¤ºã‚’é–‹å§‹ã—ã€
+ * å„ãƒœã‚¿ãƒ³ã®æŒ™å‹•ã‚’è¨­å®šã™ã‚‹
  *
  */
 function startup() {
@@ -48,7 +51,7 @@ function startup() {
     }
   }, false)
 
-  // utake photovƒ{ƒ^ƒ“‚ğ‚Æ‚é‹““®‚ğ’è‹`
+  // ã€Œtake photoã€ãƒœã‚¿ãƒ³ã‚’ã¨ã‚‹æŒ™å‹•ã‚’å®šç¾©
   startbutton.addEventListener('click', function(ev){
     takepicture()
     ev.preventDefault()
@@ -58,7 +61,7 @@ function startup() {
 }
 
 /**
- * ƒJƒƒ‰‘€ì‚ğŠJn‚·‚é
+ * ã‚«ãƒ¡ãƒ©æ“ä½œã‚’é–‹å§‹ã™ã‚‹
  */
 function videoStart() {
   streaming = false
@@ -73,7 +76,7 @@ function videoStart() {
 }
 
 /**
- * canvas‚ÌÊ^—Ìˆæ‚ğ‰Šú‰»‚·‚é
+ * canvasã®å†™çœŸé ˜åŸŸã‚’åˆæœŸåŒ–ã™ã‚‹
  */
 function clearphoto() {
   let context = canvas.getContext('2d')
@@ -82,7 +85,7 @@ function clearphoto() {
 }
 
 /**
- * ƒJƒƒ‰‚É•\¦‚³‚ê‚Ä‚¢‚éŒ»İ‚Ìó‹µ‚ğB‰e‚·‚é
+ * ã‚«ãƒ¡ãƒ©ã«è¡¨ç¤ºã•ã‚Œã¦ã„ã‚‹ç¾åœ¨ã®çŠ¶æ³ã‚’æ’®å½±ã™ã‚‹
  */
 function takepicture() {
   let context = canvas.getContext('2d')
