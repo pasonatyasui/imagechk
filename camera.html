@@ -39,7 +39,7 @@ function startup() {
   photo = document.getElementById('photo')
   startbutton = document.getElementById('startbutton')
 
-  videoStart()
+/**  videoStart()
 
   video.addEventListener('canplay', function(ev){
     if (!streaming) {
@@ -52,7 +52,7 @@ function startup() {
       streaming = true
     }
   }, false)
-
+*/
   // 「take photo」ボタンをとる挙動を定義
   startbutton.addEventListener('click', function(ev){
     takepicture()
@@ -105,9 +105,7 @@ startup()
 
 
 </script>
-<!-- /**
-* <script src="main.js" async></script>
-*/ -->
+ <script src="main.js" async></script>
 </body>
 
 </html>
